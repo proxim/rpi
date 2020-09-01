@@ -1,3 +1,9 @@
+'''
+Uses 1 LED, 1 buzzer, 1 distance sensor.
+Buzzer plays frequency based on distance sensed. 
+LED also turns on if in set minimum range.
+'''
+
 import RPi.GPIO as GPIO
 import time
 
