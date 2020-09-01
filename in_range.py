@@ -1,3 +1,8 @@
+''' 
+Uses 1 distance sensor, 1 LED, 1 Buzzer
+Turns on LED and Buzzer if distance detected is in range.
+'''
+
 import RPi.GPIO as GPIO
 import time
 
